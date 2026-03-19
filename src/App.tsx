@@ -1,10 +1,13 @@
 import './App.css'
+import Logo from './components/common/logo'
+import SignIn from './pages/auth/sign-in'
 
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+      {/* <Logo variant='white' /> */}
+      <SignIn />
     </>
   )
 }
